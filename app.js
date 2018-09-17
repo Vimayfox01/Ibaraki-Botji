@@ -52,7 +52,6 @@ client.on('guildMemberAdd', member => {
   channel.send(`Welcome to the server, ${member}`);
 });
 
-pm2 start hello.js
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
 client.login('process.env.BOT_TOKEN');
